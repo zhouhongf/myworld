@@ -93,3 +93,12 @@ logging:
   file:
     max-history: 20
     max-size: 10MB
+
+my:
+  test:
+    security:
+      config: This is the Test for config update, 1111
+      code:
+        sms:
+          length: 10
+          expireIn: 600
